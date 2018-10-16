@@ -1,0 +1,88 @@
+/*
+
+Theme Name:     UM-Gleason
+Theme URI:      
+Description:    
+Author:         agdarby/mcardenas
+Author URI:     
+Template:       umiami
+Version:        0.2.0
+
+*/
+
+@import url("../umiami/style.css");
+
+
+#logo img {padding: 15px 15px 5px 15px; width:65%;}
+
+#menu_button {padding: 15px 5px 5px 0; }
+
+#nav {background-color: #282445; padding-top: 0;}
+
+#nav_menu {float:none; display: block; background-color: #282445;}
+
+div.mega_child ul li a:hover {
+  background-color: #282445 !important;
+  color: #fff !important;
+}
+
+#nav ul li {padding: 0;}
+
+#nav li a {padding:7px 10px; display: block;}
+
+#nav li a:hover {
+	background-color: #999999;
+	color: #ffffff;
+}
+#nav_menu li a.selected_href {
+	color: #ffffff;
+}
+
+#listland {background-color: #c2c0d0;}
+
+#quicko {height: auto; background-color: transparent;}
+
+#quicko h3 {
+  background-color: #282445;
+  margin: 0;
+  color: #fff;
+  padding: 5px 0 5px 1em;
+}
+
+#quicko ul li a {font-size: 1.1em;}
+
+
+h1 {
+    background-color: #c0becf;
+    background-image: url("images/h1_bg_purple.png");
+}
+
+
+
+/* //////////////////
+//  Media Queries 
+////////////////// */
+
+/* ≥ 568px  .pure-u-sm-* */
+@media screen and (min-width: 35.5em) {
+
+#logo img {width:auto;}
+
+ }
+
+/* ≥ 768px  .pure-u-md-* */
+@media screen and (min-width: 48em) {
+
+
+
+#nav_menu {display: inline-block; background-color: #282445;}
+
+#nav li a {padding: 7px 10px; display: inline-block;}
+
+}
+
+/* ≥ 1024px     .pure-u-lg-* */
+@media screen and (min-width: 64em) {
+
+}
+
